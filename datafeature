@@ -1,0 +1,3 @@
+#DataFlair - Get the features and labels
+features=df.loc[:,df.columns!='status'].values[:,1:]
+labels=df.loc[:,'status'].values

@@ -1,0 +1,4 @@
+#DataFlair - Scale the features to between -1 and 1
+scaler=MinMaxScaler((-1,1))
+x=scaler.fit_transform(features)
+y=labels
